@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Superagent Playground</title>
+<style>
+  body { font-family: system-ui, sans-serif; background: #fff; margin: 0; padding: 32px; color: #222; }
+  h1 { font-size: 24px; margin: 0 0 24px; }
+  .cards { display: flex; gap: 16px; }
+  .card { border: 1px solid #ddd; border-radius: 8px; width: 220px; }
+  .card h2 { font-size: 16px; margin: 0 0 8px; }
+  .card p { margin: 0; color: #666; }
+  .card.padded { padding: 16px; }
+  .card.tight { padding: 0; }
+</style>
+</head>
+<body>
+  <h1>Superagent Playground</h1>
+  <div class="cards">
+    <div class="card padded">
+      <h2>Issues</h2>
+      <p>Tracked requests from the repository.</p>
+    </div>
+    <div class="card padded">
+      <h2>Pull requests</h2>
+      <p>Branches proposed by the agent.</p>
+    </div>
+    <div class="card tight">
+      <h2>Tickets</h2>
+      <p>Work the agent has accepted.</p>
+    </div>
+  </div>
+</body>
+</html>
